@@ -4,7 +4,7 @@
 :root {
   --primary-color: #e6533c;
   --primary-text-color: #fff;
-  --secondary-color:rgba(255, 255, 255, 0.5);
+  --secondary-color: rgba(255, 255, 255, 0.5);
   font-size: 10px;
 }
 .inter-font {
@@ -15,8 +15,8 @@
   font-variation-settings: "slnt" 0;
   font-size: 1.6rem;
 }
-body{
-    background-color: rgb(0, 0, 0);
+body {
+  background-color: rgb(0, 0, 0);
 }
 /* shared Style */
 * {
@@ -35,21 +35,23 @@ body{
   border-radius: 39px;
 }
 .header {
-    height: 715px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.020) 100%);
-    
+  height: 715px;
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0.02) 100%
+  );
 }
-.brand-name{
-    font-size: 36px;
-    font-weight: 800;
-    color: var(--primary-color);
+.brand-name {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--primary-color);
 }
 .menu-container {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1060px;
+  width: 55.3%;
   margin: 0 auto;
   padding-top: 24px;
 }
@@ -74,98 +76,194 @@ body{
   color: var(--primary-text-color);
 }
 /* banner style */
-.banner{
-    display: flex;
-    justify-content: space-between;
-    width: 1060px;
-    margin: 0 auto;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  width: 55.5%;
+  margin: 0 auto;
 }
-.text-box{
-    width: 520px;
-    text-align: left;
+.text-box {
+  width: 520px;
+  text-align: left;
 }
-.banner-title{
-    font-size: 7.8rem;
-    color: var(--primary-text-color);
+.banner-title {
+  font-size: 7.8rem;
+  color: var(--primary-text-color);
+  font-weight: 900;
+  margin-top: 96px;
+}
+.banner-description {
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+  margin: 28px 0;
+}
+.join-btn {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 42px;
+  padding: 16px 40px;
+}
+.download-btn {
+  background-color: black;
+  color: var(--primary-text-color);
+  font-size: 1.8rem;
+  border: 1px solid #fff;
+  border-radius: 42px;
+  padding: 16px 40px;
+}
+.ellipse {
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+.banner-photo {
+  position: relative;
+}
+.tutorial {
+  position: absolute;
+  top: 420px;
+  left: -130px;
+  z-index: 10;
+}
+.video-tutorial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background: rgba(48, 48, 48, 0.54);
+  width: 206px;
+  height: 96px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+#num350 {
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+.workout-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background: rgba(48, 48, 48, 0.54);
+  color: #fff;
+  width: 206px;
+  height: 96px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 130px;
+  right: -100px;
+  z-index: 10;
+}
+#num550 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.habit-item {
+  width: 350px;
+}
+.habit-item img {
+  border-radius: 50%;
+}
+main {
+}
+.habit {
+  margin-top: 100px;
+  color: #fff;
+  text-align: center;
+}
+.habit-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--primary-text-color);
+}
+.habit-description {
+  margin-top: 14px;
+  color: var(--secondary-color);
+}
+.habit-list {
+  width: 55.3%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 58px;
+}
+.habit-list p {
+  color: var(--secondary-color);
+  margin-top: 6px;
+}
+.habit-list h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+.runner-container {
+  width: 55.3%;
+  /* height: 371px; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 100px;
+  color: #fff;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+}
+.runner-textbox{
+    padding: 36px 40px;
+    width: 443px;
+}
+.runner-title{
+    font-size: 48px;
     font-weight: 900;
-    margin-top: 96px;
+
 }
-.banner-description{
-    font-size: 1.6rem;
+.runner-description{
     color: var(--secondary-color);
-    margin: 28px 0;
+    font-weight: 400;
+    font-size: 14px;
+    /* margin: 14px 0 34px; */
+    padding: 14px 0  34px;
+}
+.runner-photo{
+    padding: 30px 30px 30px 160px;
+    width: 566px;
+    /* height: 312px; */
 
-
 }
-.join-btn{
-    background-color: var(--primary-color);
-    color: var(--primary-text-color);
-    font-size: 1.8rem;
-    border: none;
-    border-radius: 42px;
-    padding: 16px 40px;
+.runner-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
 }
-.download-btn{
-    background-color: black;
-    color: var(--primary-text-color);
-    font-size: 1.8rem;
-    border: 1px solid #fff;
-    border-radius: 42px;
-    padding: 16px 40px;
+.exercise-container {
+  width: 55.3%;
+  margin: 0 auto;
+  margin-top: 100px;
+  color: #fff;
 }
-.ellipse{
-    width: 40px;
-    height: 40px;
-    background-color: var(--primary-color);
-    border-radius: 50%;
-}
-.banner-photo{
-    position: relative;
-}
-.tutorial{
-    position: absolute;
-    top: 420px;
-    left: -130px;
-    z-index: 10;
-}
-.video-tutorial{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    background: rgba(48, 48, 48, 0.54);
-    width: 206px;
-    height: 96px;
-    border: 1px solid rgba(255, 255, 255, 0.1);;
-    border-radius: 12px;
-    padding: 8px 12px;
-   
-    
-}
-#num350{
-    font-size: 2.4rem;
+.exercise-title{
+    font-size: 48px;
     font-weight: 900;
 }
-.workout-video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    background: rgba(48, 48, 48, 0.54);
-    color: #fff;
-    width: 206px;
-    height: 96px;
-    border: 1px solid rgba(255, 255, 255, 0.1);;
-    border-radius: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 130px;
-    right: -100px;
-    z-index: 10;
-   
-    
+.exercise-description{
+    font-size: 14px;
+    color: var(--secondary-color);
+    margin: 14px 0 58px;
 }
-#num550{
-    font-size: 40px;
-    font-weight: 900;
+.gallery-column1{
+  display: flex;
+  gap: 15px;
+
 }
+.gallery-column2{
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+
+}
+
