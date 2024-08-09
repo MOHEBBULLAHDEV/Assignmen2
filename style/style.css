@@ -263,6 +263,7 @@ main {
   height: 250px;
 }
 .item-layer {
+  position: relative;
   width: 100%;
   height: 100%;
 }
@@ -274,6 +275,11 @@ main {
 .exercise1 .item-layer {
   background-color: rgba(6, 255, 210, 0.5);
 }
+.exercise1 span{
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+}
 .exercise2 {
   background-image: url(../asset/images/exercise2.png);
   background-repeat: no-repeat;
@@ -282,6 +288,13 @@ main {
 .exercise2 .item-layer {
   background-color: rgba(255, 0, 0, 0.3);
 }
+.exercise2 span{
+  position: absolute;
+  left: 20px;
+  top: 30px;
+
+}
+
 .exercise3 {
   background-image: url(../asset/images/exercise3.png);
   background-repeat: no-repeat;
@@ -289,6 +302,11 @@ main {
 }
 .exercise3 .item-layer {
   background-color: rgba(0, 0, 0, 0.5);
+}
+.exercise3 span{
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
 }
 .exercise4 {
   background-image: url(../asset/images/exercise4.png);
@@ -298,13 +316,24 @@ main {
 .exercise4 .item-layer {
   background-color: rgba(0, 0, 0, 0.5);
 }
+.exercise4 span{
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
 .exercise5 {
   background-image: url(../asset/images/exercise5.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
 .exercise5 .item-layer {
   background-color: rgba(66, 255, 0, 0.3);
+}
+.exercise5 span{
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
 }
 .exercise6 {
   background-image: url(../asset/images/exercise6.jpg);
@@ -313,4 +342,32 @@ main {
 }
 .exercise6 .item-layer {
   background-color: rgba(0, 71, 255, 0.3);
+}
+.exercise6 span{
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+}
+.item-layer span{
+  text-align: justify;
+}
+/* Bm Calculator Section */
+.bm-textbox{
+  width: 671px;
+  text-align: left;
+  margin: 88px auto;
+}
+.bm-title{
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--primary-text-color);
+}
+.bm-description{
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--secondary-color);
+  margin-top: 14px;
+}
+table th,td{
+  color: white;
 }
