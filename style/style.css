@@ -351,10 +351,45 @@ main {
 .item-layer span{
   text-align: justify;
 }
-.priceing{
+
+.pricing{
   background-color: #161616;
-  height: 800px;
   
+}
+.pricing-textbox{
+ 
+  /* display: flex;
+  justify-content: space-between;   */
+}
+.pricing .container{
+  width: 55.3%;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.read-more{
+  margin-top: 160px;
+}
+.btn-readmore{
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 42px;
+  padding: 16px 40px;
+
+}
+
+
+.plan-title{
+  font-size: 48px;
+  color: var(--primary-text-color);
+  position: relative;
+  top: -100px;
+
+ 
 }
 .price-container{
   width: 55.3%;
@@ -362,7 +397,6 @@ main {
   display: flex;
   /* justify-content: space-between; */
   gap: 20px;
-  padding: 250px 0;
 }
 .card-item{
   background-color: #29282D;
@@ -394,7 +428,11 @@ main {
   color: var(--primary-text-color);
   padding: 12px 0;
 }
-.buynow{
+.bdr{
+  border-top: 1px solid rgba(29, 25, 25, 0.616);
+  border-bottom: 1px solid rgba(29, 25, 25, 0.616);
+}
+.buy-now{
   background-color: var(--primary-color);
   color: var(--primary-text-color);
   border: none;
@@ -402,24 +440,6 @@ main {
   padding: 16px 40px;
   margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Bm Calculator Section */
 .bm-textbox{
   width: 671px;
