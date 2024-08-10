@@ -413,12 +413,21 @@ td{
   padding: 10px;
   text-align: left;
 }
+.form-item1{ grid-area: item1;}
+.form-item2{ grid-area: item2;}
+.form-item3{ grid-area: item3;}
+.form-item4{ grid-area: item4;}
+.form-item5{ grid-area: item5;}
 form{
   display: grid;
-  grid-template-columns: repeat(2 ,1fr);
-  gap: 10px;
-  
-
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto; 
+    grid-template-areas:
+        "item1 item2"
+        "item3 item4"
+        "item5 item5";
+    gap: 10px; 
+    padding: 10px;
 }
 input , select{
   padding: 20px;
