@@ -378,7 +378,7 @@ main {
   text-align: center;
 
 }
-.price-title{
+#price-title{
   font-size: 16px;
   color: var(--primary-color);
   font-weight: 400;
