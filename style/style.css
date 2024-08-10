@@ -397,6 +397,7 @@ main {
   display: flex;
   /* justify-content: space-between; */
   gap: 20px;
+  padding-bottom: 70px;
 }
 .card-item{
   background-color: #29282D;
