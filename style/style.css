@@ -35,7 +35,6 @@ body {
   border-radius: 39px;
 }
 .header {
-  height: 715px;
   background: linear-gradient(
     180deg,
     rgb(17, 17, 17),
@@ -74,6 +73,9 @@ body {
 .main-menu li a {
   text-decoration: none;
   color: var(--primary-text-color);
+}
+.icons-menu{
+  display: none;
 }
 /* banner style */
 .banner {
@@ -165,19 +167,20 @@ body {
   font-size: 40px;
   font-weight: 900;
 }
-.habit-item {
-  width: 350px;
-}
-.habit-item img {
-  border-radius: 50%;
-}
-main {
-}
 .habit {
   margin-top: 100px;
   color: #fff;
   text-align: center;
 }
+.habit-item {
+  width: 350px;
+}
+.habit-item img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+
 .habit-title {
   font-size: 48px;
   font-weight: 900;
