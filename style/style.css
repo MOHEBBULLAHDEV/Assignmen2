@@ -256,10 +256,7 @@ body {
   color: var(--secondary-color);
   margin: 14px 0 58px;
 }
-.gallery-column1 {
-  display: flex;
-}
-.gallery-column2 {
+.gallery-column1 ,.gallery-column2 {
   display: flex;
 }
 .item {

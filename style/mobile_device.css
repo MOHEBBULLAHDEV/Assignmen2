@@ -95,6 +95,18 @@
         margin-top: 100px;
         color: #fff;
       }
+      .gallery-column1 ,.gallery-column2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .exercise3,.exercise6{
+        display: none;
+      }
+      .item{
+        width: 50% !important;
+        margin-top: 5px;
+      }
       .bm-textbox{
         width: 671px;
         text-align: left;
@@ -142,12 +154,28 @@
       
       }
       .price-container{
-        width: 55.3%;
+        width: 70%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         gap: 20px;
         padding-bottom: 70px;
+      }
+      .pricing .container{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+      
+      }
+      .plan-title{
+        font-size: 48px;
+        color: var(--primary-text-color);
+        position: relative;
+        top: -30px;
+       
       }
       .card-item{
         background-color: #29282D;
@@ -157,6 +185,7 @@
         padding: 50px 0;
       }
       .read-more{
+        margin: 0 auto;
         margin-top: 20px;
       }
       .footer-container{
@@ -171,7 +200,7 @@
       .footer-menu{
         width: 510px;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         margin-top: 36px;
       }
 
@@ -197,13 +226,13 @@
 
 
       .team{
-        width: 90%;
+        width: 70%;
         margin: 0 auto;
       }
       .team-member{
         background-color: rgba(255, 255, 255, 0.1);
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
         gap: 10px;
         padding: 10px;
         border-radius: 18px;
